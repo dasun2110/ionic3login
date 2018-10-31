@@ -1,0 +1,7 @@
+{
+  "name": "loging",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
