@@ -1,7 +1,7 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Login Application
+      Social Network
     </ion-title>
   </ion-navbar>
 </ion-header>
@@ -9,18 +9,13 @@
 <ion-content padding>
   <ion-list>
 
-    <ion-item>
-      <ion-label floating>Username</ion-label>
-      <ion-input type="text" #username></ion-input>
-    </ion-item>
-  
-    <ion-item>
-      <ion-label floating>Password</ion-label>
-      <ion-input type="password" #password></ion-input>
-    </ion-item>
+    
 
     <div padding>
       <button block ion-button (click)="signIn()">Sign In</button>
+    </div>
+    <div padding>
+      <button block ion-button (click)="register()">Register</button>
     </div>
   
   </ion-list>
